@@ -9,24 +9,10 @@ function HeroSection() {
 			<video autoPlay muted loop>
 				<source src="/videos/video-3.mp4" type="video/mp4"></source>
 			</video>
-			<h1>ADVENTURE WAITING</h1>
-			<p>What Are You Waiting For?</p>
-			<div className="hero-btns">
-				<Button
-					className="btns"
-					buttonStyle="btn--outline"
-					buttonSize="btn--large"
-				>
-					GET STARTED
-				</Button>
-				<Button
-					className="btns"
-					buttonStyle="btn--primary"
-					buttonSize="btn--large"
-				>
-					WATCH TRAILER<i className="far fa-play-circle"></i>
-				</Button>
-			</div>
+			<h1>BEYOND SAFE</h1>
+			<p>
+				시공간의 제약 없이 <br /> 끊임없는 모니터링
+			</p>
 		</div>
 	);
 }

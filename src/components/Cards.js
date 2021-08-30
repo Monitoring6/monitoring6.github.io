@@ -24,7 +24,7 @@ function Cards() {
 					</ul>
 					<ul className="cards__items">
 						<CardItem
-							src="images/img-3.jpg"
+							src="images/1234.jpeg"
 							text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
 							label="Mystery"
 							path="/services"
