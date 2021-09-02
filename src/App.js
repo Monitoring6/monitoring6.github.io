@@ -2,11 +2,11 @@ import "./App.css";
 import Navbar from "./components/Navbar.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
-import Home from "./components/pages/Home";
-import Services from "./components/pages/Services";
-import Products from "./components/pages/Products";
-import SignUp from "./components/pages/SignUp";
+import About from "./components/pages/About";
+import Culture from "./components/pages/Culture";
+import Vision from "./components/pages/Vision";
 import { Trans, useTranslation } from "react-i18next";
+import Home from "./components/pages/Home";
 
 function App() {
 	const { t, i18n } = useTranslation();
@@ -28,9 +28,9 @@ function App() {
 				<Navbar></Navbar>
 				<Switch>
 					<Route path="/" exact component={Home}></Route>
-					<Route path="/services" component={Services}></Route>
-					<Route path="/products" component={Products}></Route>
-					<Route path="/signup" component={SignUp}></Route>
+					<Route path="/about" component={About}></Route>
+					<Route path="/culture" component={Culture}></Route>
+					<Route path="/vision" component={Vision}></Route>
 				</Switch>
 			</Router>
 		</div>
