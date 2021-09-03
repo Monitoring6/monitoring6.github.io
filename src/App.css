@@ -2,7 +2,14 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: "PT Sans", sans-serif;
+	font-family: "HangeulNuri-Bold";
+}
+@font-face {
+	font-family: "HangeulNuri-Bold";
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/HangeulNuri-Bold.woff")
+		format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
 .about,
@@ -10,13 +17,14 @@
 .vision {
 	display: flex;
 	height: 100vh;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	font-size: 3rem;
 }
 
 .culture {
-	background-image: url("/images/1234.jpeg");
+	/* background-image: url("/images/1234.jpeg"); */
+	background-color: black;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -25,7 +33,8 @@
 }
 
 .vision {
-	background-image: url("/images/12345.jpeg");
+	/* background-image: url("/images/12345.jpeg"); */
+	background-color: black;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -34,8 +43,9 @@
 }
 
 .about {
-	background-image: url("/images/12345.jpeg");
-	background-position: center;
+	/* background-image: url("/images/12345.jpeg"); */
+	background-color: black;
+	/* background-position: center; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
