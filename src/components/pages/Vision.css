@@ -1,0 +1,11 @@
+.text-on-image-vision {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	font-weight: bolder;
+	width: 100%;
+	top: 25%;
+	display: flex;
+	justify-content: center;
+}

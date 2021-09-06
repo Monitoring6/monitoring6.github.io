@@ -10,7 +10,7 @@ export default function About() {
 				<h1 className="about">About M6</h1>
 			</div>
 			<div>
-				<div className="text-on-image">
+				<div className="text-on-image-about">
 					<div className="text-on-image-1">
 						<h2>
 							기술이 자라는 회사
