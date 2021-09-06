@@ -13,13 +13,11 @@ function CardItem(props) {
 						<p className="paragraph1">
 							시공간의 제약 없는 IoT기반 화재 모니터링 서비스가 <br />
 							<span className="span">
-								{" "}
 								불안으로부터 자유로운 일상을 선사합니다.
 							</span>
 						</p>
 						<p className="paragraph2">
-							{" "}
-							<br /> 당신이 언제 어디서나 안심하고 일상을 누릴 수 있도록 <br />{" "}
+							당신이 언제 어디서나 안심하고 일상을 누릴 수 있도록 <br />{" "}
 							Monitoring6는 당신의 여섯번째 감각을 대신합니다.
 						</p>
 					</div>

@@ -149,16 +149,20 @@ p.paragraph1 {
 		font-size: 24px;
 	}
 	.headline {
-		margin-right: 10%;
+		/* margin-right: 10%; */
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin-right: 0;
 	}
 
 	p.paragraph1 {
 		margin-left: 20%;
 	}
 
-	.span {
-		margin-left: 7%;
-	}
+	/* .span {
+		margin-left: 0%;
+	} */
 
 	.paragraph2 {
 		margin-left: 20%;
@@ -179,5 +183,59 @@ p.paragraph1 {
 
 	.paragraph2 {
 		margin-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 1432px) {
+	.text-on-image {
+		font-size: 4vh;
+		top: 5%;
+	}
+	p.paragraph1 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 5% 0;
+		font-size: 3vh;
+	}
+	.span {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 3vh;
+		margin: 0;
+	}
+	p.paragraph2 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 0;
+		font-size: 3vh;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.text-on-image {
+		font-size: 3vh;
+	}
+	p.paragraph1 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 5% 0;
+		font-size: 2vh;
+	}
+	.span {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		font-size: 2vh;
+	}
+	p.paragraph2 {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		margin: 0;
+		font-size: 2vh;
 	}
 }
