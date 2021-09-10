@@ -1,0 +1,89 @@
+.text-on-image-culture {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bolder;
+	width: 100%;
+	top: 25%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.face-container1 {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 6%;
+	position: relative;
+}
+
+.face-container2 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 6%;
+	position: relative;
+}
+
+.face-container3 {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-bottom: 6%;
+	position: relative;
+}
+
+.header-culture {
+	font-size: 1em;
+}
+
+.william {
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	/* height: 30vh; */
+}
+
+.face {
+	/* width: 50vh; */
+	border-radius: 10%;
+	/* object-fit: fill; */
+}
+
+.william-hover {
+	position: absolute;
+	height: 100%;
+	width: 9%;
+	opacity: 0;
+	transition: 0.5s ease;
+	background-color: white;
+	border-radius: 10%;
+}
+
+.william:hover .william-hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 940px) {
+	.face {
+		width: 50vh;
+	}
+
+	.face-container {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-bottom: 6%;
+	}
+}
