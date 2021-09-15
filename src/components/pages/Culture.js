@@ -1,6 +1,7 @@
 import React from "react";
-import "../../App.css";
+// import "../../App.css";
+import Member from "../Member";
 
 export default function Culture() {
-	return <h1 className="culture">Our Culture</h1>;
+	return <Member></Member>;
 }
