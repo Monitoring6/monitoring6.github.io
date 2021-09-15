@@ -72,18 +72,22 @@ const Member = () => {
 							<img
 								className="face"
 								src="images/M6-culture-1.jpg"
-								alt="Jongsub"
+								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
 							<img
 								className="face"
 								src="images/M6-culture-3.jpg"
-								alt="Youngmin"
+								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/M6-culture-2.jpg" alt="Minho" />
+							<img
+								className="face"
+								src="images/M6-culture-2.jpg"
+								alt="bulletin board"
+							/>
 						</div>
 					</div>
 				</div>
