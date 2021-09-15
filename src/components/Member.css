@@ -12,22 +12,25 @@
 	justify-content: space-around;
 }
 
-.face-container1 {
+.face-container1,
+.face-container2,
+.face-container3,
+.M6-company {
 	width: 100%;
 	display: inline-flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	margin-bottom: 6%;
 	position: relative;
 }
 
-.face-container2 {
+/* .face-container2 {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	margin-bottom: 6%;
 	position: relative;
 }
@@ -37,20 +40,20 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	margin-bottom: 6%;
 	position: relative;
-}
+} */
 
 .header-culture {
 	font-size: 1em;
 }
 
-.william {
+.face-wrap {
 	display: flex;
 	justify-content: center;
-	width: 30%;
-	/* height: 30vh; */
+	width: 16%;
+	height: 35vh;
 }
 
 .face {
@@ -62,20 +65,33 @@
 .william-hover {
 	position: absolute;
 	height: 100%;
-	width: 9%;
+	width: 35vh;
 	opacity: 0;
 	transition: 0.5s ease;
 	background-color: white;
 	border-radius: 10%;
 }
-
-.william:hover .william-hover {
-	opacity: 1;
+.text-on-hover {
+	color: black;
+	font-size: 22px;
+	position: absolute;
+	font-weight: bolder;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 
-@media screen and (max-width: 940px) {
+.face-wrap:hover .william-hover {
+	opacity: 0.7;
+}
+
+@media screen and (max-width: 1000px) {
 	.face {
 		width: 50vh;
+		height: 100%;
 	}
 
 	.face-container {
@@ -85,5 +101,27 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		margin-bottom: 6%;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.face-container1,
+	.face-container2,
+	.face-container3,
+	.M6-company {
+		display: flex;
+		/* flex-wrap: wrap; */
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 0;
+	}
+
+	.face-wrap {
+		margin-bottom: 4%;
+	}
+
+	.william-hover {
+		height: 35vh;
 	}
 }
