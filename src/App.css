@@ -46,6 +46,7 @@
 	background-repeat: no-repeat;
 	color: #fff;
 	font-size: 5em;
+	/* top: 25%; */
 }
 
 .about {
@@ -63,6 +64,6 @@
 		background-position: bottom;
 	}
 	.culture {
-		height: 440vh;
+		height: 500vh;
 	}
 }
