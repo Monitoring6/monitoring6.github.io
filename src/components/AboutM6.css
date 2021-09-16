@@ -172,3 +172,9 @@
 		font-size: 2vh;
 	}
 }
+
+@media screen and (max-width: 390px) {
+	.text-on-image-1 {
+		margin-top: 10%;
+	}
+}
