@@ -25,26 +25,6 @@
 	position: relative;
 }
 
-/* .face-container2 {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-bottom: 6%;
-	position: relative;
-}
-
-.face-container3 {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-bottom: 6%;
-	position: relative;
-} */
-
 .header-culture {
 	font-size: 1em;
 }
@@ -56,10 +36,9 @@
 	height: 35vh;
 }
 
-.face {
-	/* width: 50vh; */
+.face,
+.bulletin {
 	border-radius: 10%;
-	/* object-fit: fill; */
 }
 
 .william-hover {
@@ -71,6 +50,7 @@
 	background-color: white;
 	border-radius: 10%;
 }
+
 .text-on-hover {
 	color: black;
 	font-size: 22px;
@@ -88,8 +68,15 @@
 	opacity: 0.7;
 }
 
+.bulletin:hover {
+	transition: all 0.3s ease-in;
+	transform: scale(1.3);
+}
+
 @media screen and (max-width: 1000px) {
-	.face {
+	/*화면 줄어들었을때 컬쳐 페이지 얼굴과 사진들*/
+	.face,
+	.bulletin {
 		width: 50vh;
 		height: 100%;
 	}
@@ -110,7 +97,6 @@
 	.face-container3,
 	.M6-company {
 		display: flex;
-		/* flex-wrap: wrap; */
 		flex-direction: column;
 		justify-content: space-between;
 		align-items: center;

@@ -16,15 +16,12 @@ h1 {
 }
 
 .cards__items {
-	/* margin-bottom: 24px; */
 	margin: 0;
 	text-decoration: none;
 }
 
 .text-on-image {
 	position: absolute;
-	/* right: 50%; */
-	/* left: 30%; */
 	bottom: 30%;
 	color: #fff;
 	text-decoration: none;
@@ -41,7 +38,6 @@ h1 {
 p.paragraph1 {
 	margin-top: 10%;
 	margin-left: 60%;
-	/* float: right; */
 }
 .span {
 	margin-left: 9%;
@@ -50,7 +46,6 @@ p.paragraph1 {
 .paragraph2 {
 	margin-top: 5%;
 	margin-left: 6%;
-	/* float: right; */
 }
 
 .cards__item {
@@ -72,9 +67,7 @@ p.paragraph1 {
 	width: 100%;
 	padding-top: 67%;
 	overflow: hidden;
-	/* background-color: black; */
 	margin-bottom: 0;
-	/* padding-bottom: 5%; */
 }
 
 .fade-img {
@@ -92,7 +85,6 @@ p.paragraph1 {
 	width: 100%;
 	max-width: 1000%;
 	height: 101%;
-	/* max-height: 100%; */
 	object-fit: fill;
 	transition: all 0.2s linear;
 }
@@ -110,9 +102,6 @@ p.paragraph1 {
 }
 
 @media only screen and (max-width: 1134px) {
-	.cards__item {
-		/* margin-bottom: 2rem; */
-	}
 	.text-on-image {
 		font-size: 24px;
 	}
@@ -144,7 +133,6 @@ p.paragraph1 {
 		font-size: 24px;
 	}
 	.headline {
-		/* margin-right: 10%; */
 		display: flex;
 		flex-direction: column;
 		text-align: center;
@@ -154,10 +142,6 @@ p.paragraph1 {
 	p.paragraph1 {
 		margin-left: 20%;
 	}
-
-	/* .span {
-		margin-left: 0%;
-	} */
 
 	.paragraph2 {
 		margin-left: 20%;

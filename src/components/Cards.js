@@ -7,9 +7,6 @@ function Cards() {
 		<div className="cards">
 			<div className="container">
 				<div className="cards__wrapper">
-					{/* <ul className="cards__items">
-						<CardItem src="images/12345.jpeg" path="/vision" />
-					</ul> */}
 					<ul className="cards__items">
 						<CardItem src="images/mainpage.png" path="/culture" />
 					</ul>

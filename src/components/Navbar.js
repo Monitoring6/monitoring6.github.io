@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Button from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -28,7 +27,6 @@ function Navbar() {
 			<div className="navbar-container">
 				<Link to="/" className="navbar-logo">
 					<img src="images/M6_Logo white png.png" alt="" className="logo" />
-					{/* <i className="fab fa-typo3"></i> */}
 				</Link>
 				<div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"}></i>
