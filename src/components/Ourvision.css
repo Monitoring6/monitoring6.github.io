@@ -1,3 +1,18 @@
 .vision {
 	padding-top: 3%;
 }
+
+.text-on-image-vision {
+	position: absolute;
+	color: #fff;
+	text-decoration: none;
+	font-size: 2em;
+	font-weight: bolder;
+	width: 100%;
+	top: 35%;
+}
+
+.text-vision {
+	text-align: center;
+	margin-top: 2%;
+}

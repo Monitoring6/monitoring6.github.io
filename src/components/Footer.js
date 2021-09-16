@@ -27,7 +27,7 @@ function Footer() {
 					<div className="space-phone">
 						<p className="phone-number2">1855-1656</p>
 					</div>
-					<small class="website-rights">M6 © 2020</small>
+					<small class="website-rights">M6 © 2021</small>
 				</div>
 			</section>
 		</div>
