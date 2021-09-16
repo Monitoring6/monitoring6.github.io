@@ -1,51 +1,31 @@
 import React from "react";
 import "./Footer.css";
-import Button from "./Button";
-import { Link } from "react-router-dom";
-import ButtonMailto from "./ButtonMailto";
 
 function Footer() {
 	return (
 		<div className="footer-container">
 			<section className="footer-subscription">
-				<p className="footer-subscription-heading">
-					궁금하시거나 문의 하실거 있으시면 남겨주세요
-				</p>
-				{/* <p className="footer-subscription-text">
-					You can unsubscribe at any time.
-				</p> */}
 				<div className="input-areas">
-					<form>
-						<input
-							className="footer-input"
-							name="email"
-							type="email"
-							placeholder="Your Email"
-						/>
-						<input
-							type="submit"
-							name="email"
-							required
-							mailto="kangyeon0728@gmail.com"
-							className="submit-button"
-						/>
-
-						{/* <ButtonMailto
-							label="Send"
-							mailto="mailto:kangyeon0728@gmail.com"
-							buttonStyle="btn--outline"
-							name="email"
-						></ButtonMailto> */}
-					</form>
+					<div>
+						<a className="question" href="mailto:ask@monitoring6.com">
+							문의하실거나 궁금한거 있으면 남겨주세요
+						</a>{" "}
+						<br />
+						<a href="https://firem6.com/" className="firem6">
+							FireM6
+						</a>
+					</div>
 				</div>
 			</section>
-
 			<section class="social-media">
 				<div class="social-media-wrap">
 					<div class="footer-logo">
-						<Link to="/" className="navbar-logo">
-							<img src="images/M6_Logo white png.png" alt="" className="logo" />
-						</Link>
+						<img src="images/M6_Logo white png.png" alt="" className="logo" />
+						<p className="phone-number1">1855-1656</p>
+						<small class="website-rights-before">M6 © 2020</small>
+					</div>
+					<div className="space-phone">
+						<p className="phone-number2">1855-1656</p>
 					</div>
 					<small class="website-rights">M6 © 2020</small>
 				</div>

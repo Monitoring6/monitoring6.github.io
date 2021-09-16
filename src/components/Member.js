@@ -5,7 +5,7 @@ const Member = () => {
 	return (
 		<div>
 			<div>
-				<h1 className="culture">Our Culture</h1>
+				<h1 className="culture">Our Members</h1>
 				<div className="text-on-image-culture">
 					<div className="face-container1">
 						<div className="face-wrap">
