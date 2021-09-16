@@ -25,7 +25,6 @@
 
 .culture {
 	background-image: url("/images/culture.png");
-	/* background-color: black; */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -35,30 +34,23 @@
 }
 
 .vision {
-	/* background-image: url("/images/neon.jpeg"); */
-	/* background-image: url("/images/tunnel1.jpeg"); */
-	/* background-image: url("/images/tunnel2.jpeg"); */
 	background-image: url("/images/app.jpeg");
-
-	/* background-color: black; */
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
 	font-size: 5em;
-	/* top: 25%; */
 }
 
 .about {
 	background-image: url("/images/culture.png");
-	/* background-color: black; */
-	/* background-position: center; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
 	font-size: 5em;
 	height: 120vh;
 }
+
 @media screen and (max-width: 1000px) {
 	.about {
 		background-position: bottom;

@@ -70,22 +70,22 @@ const Member = () => {
 					<div className="M6-company">
 						<div className="face-wrap">
 							<img
-								className="face"
-								src="images/M6-culture-1.jpg"
+								className="bulletin"
+								src="images/M6-culture-1.png"
 								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
 							<img
-								className="face"
-								src="images/M6-culture-3.jpg"
+								className="bulletin"
+								src="images/M6-culture-2.png"
 								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
 							<img
-								className="face"
-								src="images/M6-culture-2.jpg"
+								className="bulletin"
+								src="images/M6-culture-3.png"
 								alt="bulletin board"
 							/>
 						</div>
