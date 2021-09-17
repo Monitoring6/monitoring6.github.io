@@ -6,7 +6,7 @@ function HeroSection() {
 	return (
 		<div className="hero-container">
 			<video autoPlay muted loop>
-				<source src="/videos/video-3.mp4" type="video/mp4"></source>
+				<source src="/videos/mainpage-video.mp4" type="video/mp4"></source>
 			</video>
 			<h1>BEYOND SAFETY</h1>
 			<p>
@@ -17,3 +17,5 @@ function HeroSection() {
 }
 
 export default HeroSection;
+
+<div className="bodylanguage"></div>;
