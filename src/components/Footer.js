@@ -7,13 +7,13 @@ function Footer() {
 			<section className="footer-subscription">
 				<div className="input-areas">
 					<div>
-						<a href="mailto:ask@monitoring6.com">
+						<a href="mailto:ask@monitoring6.com" target="_blank">
 							<button className="button-footer">
 								문의하실거나 궁금한거 있으면 남겨주세요
 							</button>
 						</a>
 						<br />
-						<a href="https://firem6.com/">
+						<a href="https://firem6.com/" target="_blank">
 							<button className="button-footer">
 								화재 모니터링 서비스 FireM6 홈페이지
 							</button>
