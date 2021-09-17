@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Button from "./Button";
 import "./Navbar.css";
 
 function Navbar() {
@@ -27,51 +26,28 @@ function Navbar() {
 		<nav className="navbar">
 			<div className="navbar-container">
 				<Link to="/" className="navbar-logo">
-					M6
-					{/* <i className="fab fa-typo3"></i> */}
+					<img src="images/M6_Logo white png.png" alt="" className="logo" />
 				</Link>
 				<div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"}></i>
 				</div>
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
-						<Link to="/" className="nav-links" onClick={closeMobileMenu}>
-							Home
+						<Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+							ABOUT
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link
-							to="/Services"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
-							Services
+						<Link to="/Culture" className="nav-links" onClick={closeMobileMenu}>
+							CULTURE
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link
-							to="/products"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
-							Product
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link
-							to="/signup"
-							className="nav-links-mobile"
-							onClick={closeMobileMenu}
-						>
-							Sign Up
+						<Link to="/vision" className="nav-links" onClick={closeMobileMenu}>
+							VISION
 						</Link>
 					</li>
 				</ul>
-				{button && (
-					<Button buttonStyle="btn--outline" to="/signup">
-						SIGN UP
-					</Button>
-				)}
 			</div>
 		</nav>
 	);
