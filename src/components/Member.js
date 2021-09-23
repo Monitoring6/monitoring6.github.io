@@ -9,19 +9,19 @@ const Member = () => {
 				<div className="text-on-image-culture">
 					<div className="face-container1">
 						<div className="face-wrap">
-							<img className="face" src="images/W.h2.JPG" alt="William" />
+							<img className="face" src="images/W.H2.jpg" alt="William" />
 							<div className="image-hover">
 								<div className="text-on-hover">정원혁(William)</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/Juy2.JPG" alt="Juy" />
+							<img className="face" src="images/Juy2.jpg" alt="Juy" />
 							<div className="image-hover">
 								<div className="text-on-hover">이주영(Juy)</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/K.y.JPG" alt="KY" />
+							<img className="face" src="images/K.Y.jpg" alt="KY" />
 							<div className="image-hover">
 								<div className="text-on-hover">이강연(KY)</div>
 							</div>
@@ -29,19 +29,19 @@ const Member = () => {
 					</div>
 					<div className="face-container2">
 						<div className="face-wrap">
-							<img className="face" src="images/S.j.JPG" alt="Sanju" />
+							<img className="face" src="images/S.J.jpg" alt="Sanju" />
 							<div className="image-hover">
 								<div className="text-on-hover">Sanju(김산쥬)</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/G.h.JPG" alt="Kyeonghyeon" />
+							<img className="face" src="images/G.H.JPG" alt="Kyeonghyeon" />
 							<div className="image-hover">
 								<div className="text-on-hover">조경현</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/J.H.JPG" alt="Junhyeok" />
+							<img className="face" src="images/J.H.jpg" alt="Junhyeok" />
 							<div className="image-hover">
 								<div className="text-on-hover">권준혁</div>
 							</div>
@@ -49,19 +49,19 @@ const Member = () => {
 					</div>
 					<div className="face-container3">
 						<div className="face-wrap">
-							<img className="face" src="images/J.s.JPG" alt="Jongsub" />
+							<img className="face" src="images/J.S.jpg" alt="Jongsub" />
 							<div className="image-hover">
 								<div className="text-on-hover">최종섭</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/Y.m.JPG" alt="Youngmin" />
+							<img className="face" src="images/Y.M.jpg" alt="Youngmin" />
 							<div className="image-hover">
 								<div className="text-on-hover">박영민</div>
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/M.h.JPG" alt="Minho" />
+							<img className="face" src="images/M.H.jpg" alt="Minho" />
 							<div className="image-hover">
 								<div className="text-on-hover">강민호</div>
 							</div>
@@ -69,7 +69,7 @@ const Member = () => {
 					</div>
 					<div className="face-container4">
 						<div className="face-wrap">
-							<img className="face" src="images/O.y.JPG" alt="eunyung" />
+							<img className="face" src="images/O.y.jpg" alt="eunyung" />
 							<div className="image-hover-1">
 								<div className="text-on-hover">송은영</div>
 							</div>
