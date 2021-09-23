@@ -69,7 +69,7 @@ const Member = () => {
 					</div>
 					<div className="face-container4">
 						<div className="face-wrap">
-							<img className="face" src="images/O.y.jpg" alt="eunyung" />
+							<img className="face" src="images/O.Y.jpg" alt="eunyung" />
 							<div className="image-hover-1">
 								<div className="text-on-hover">송은영</div>
 							</div>
