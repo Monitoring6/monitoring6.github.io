@@ -8,7 +8,7 @@ function Cards() {
 			<div className="container">
 				<div className="cards__wrapper">
 					<ul className="cards__items">
-						<CardItem src="images/mainpage.png" path="/culture" />
+						<CardItem src="images/mainpage.jpg" path="/culture" />
 					</ul>
 				</div>
 			</div>
