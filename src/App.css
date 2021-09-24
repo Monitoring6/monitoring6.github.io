@@ -34,7 +34,7 @@
 }
 
 .vision {
-	background-image: url("/images/app.jpeg");
+	background-image: url("/images/app.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -56,6 +56,6 @@
 		background-position: bottom;
 	}
 	.culture {
-		height: 500vh;
+		height: 520vh;
 	}
 }

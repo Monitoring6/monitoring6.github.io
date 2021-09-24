@@ -9,7 +9,7 @@ const Member = () => {
 				<div className="text-on-image-culture">
 					<div className="face-container1">
 						<div className="face-wrap">
-							<img className="face" src="images/W.H2.jpg" alt="William" />
+							<img className="face" src="images/W.H.jpg" alt="William" />
 							<div className="image-hover">
 								<div className="text-on-hover">정원혁(William)</div>
 							</div>
@@ -35,7 +35,7 @@ const Member = () => {
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/G.H.JPG" alt="Kyeonghyeon" />
+							<img className="face" src="images/G.H.jpg" alt="Gyeonghyeon" />
 							<div className="image-hover">
 								<div className="text-on-hover">조경현</div>
 							</div>
@@ -79,21 +79,21 @@ const Member = () => {
 						<div className="face-wrap">
 							<img
 								className="bulletin"
-								src="images/M6-culture-1.png"
+								src="images/M6-culture-1.jpg"
 								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
 							<img
 								className="bulletin"
-								src="images/M6-culture-2.png"
+								src="images/M6-culture-2.jpg"
 								alt="bulletin board"
 							/>
 						</div>
 						<div className="face-wrap">
 							<img
 								className="bulletin"
-								src="images/M6-culture-3.png"
+								src="images/M6-culture-3.jpg"
 								alt="bulletin board"
 							/>
 						</div>
