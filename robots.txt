@@ -1,1 +1,1 @@
-Sitemap: https://monitoring6.com/sitemap.txt
+Sitemap: https://monitoring6.github.io/sitemap.txt
