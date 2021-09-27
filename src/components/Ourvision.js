@@ -16,7 +16,7 @@ const Ourvision = () => {
 				</p>
 				<p className="text-vision">
 					재난에 대한 사소한 불안에 마음을 뺏기지 않도록, 언제나 손 닿을
-					거리에서 고객과 함께합니다.
+					거리에서 여러분과 함께합니다.
 				</p>
 			</div>
 		</div>

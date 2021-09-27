@@ -15,4 +15,8 @@
 .text-vision {
 	text-align: center;
 	margin-top: 2%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: smaller;
+	font-weight: 500;
 }
