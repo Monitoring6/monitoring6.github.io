@@ -27,20 +27,10 @@
 	padding: 10px;
 	cursor: pointer;
 	margin: 10px;
+	border-radius: 20px;
 }
 
-.submit-button {
-	background-color: transparent;
-	color: #fff;
-	padding: 8px 20px;
-	border: 1px solid var(--primary);
-	transition: all 0.3s ease-out;
-	border-radius: 2px;
-	outline: none;
-	cursor: pointer;
-}
-
-.submit-button:hover {
+.button-footer:hover {
 	background: #fff;
 	color: #242424;
 	transition: all 0.3s ease-out;
@@ -159,10 +149,20 @@
 	opacity: 0;
 }
 
+.phone-number1 a {
+	text-decoration: none;
+	color: white;
+}
+
 .phone-number2 {
 	color: white;
 	font-size: 2em;
 	margin-bottom: 20%;
+}
+
+.phone-number2 a {
+	text-decoration: none;
+	color: white;
 }
 
 .fa-youtube {
@@ -230,6 +230,7 @@
 		display: flex;
 		justify-content: center;
 		opacity: 0;
+		pointer-events: none;
 	}
 
 	.space-phone {

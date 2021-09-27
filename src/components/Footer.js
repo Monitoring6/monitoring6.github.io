@@ -9,13 +9,13 @@ function Footer() {
 					<div>
 						<a href="mailto:ask@monitoring6.com" target="_blank">
 							<button className="button-footer">
-								문의하실거나 궁금한거 있으면 남겨주세요
+								문의내용 메일로 남겨주세요
 							</button>
 						</a>
 						<br />
 						<a href="https://firem6.com/" target="_blank">
 							<button className="button-footer">
-								화재 모니터링 서비스 FireM6 홈페이지
+								화재 모니터링 서비스 FireM6
 							</button>
 						</a>
 					</div>
@@ -25,7 +25,10 @@ function Footer() {
 				<div class="social-media-wrap">
 					<div class="footer-logo">
 						<img src="images/M6_Logo white png.png" alt="" className="logo" />
-						<p className="phone-number1">1855-1656</p>
+						<p className="phone-number1">
+							<i class="fas fa-phone-alt"></i>
+							<a href="tel:1855-1656">1855-1656</a>
+						</p>
 						<div>
 							<small class="website-rights-before">
 								주소: 서울 영등포구 양평로22길 21 1405호
@@ -35,7 +38,10 @@ function Footer() {
 						</div>
 					</div>
 					<div className="space-phone">
-						<p className="phone-number2">1855-1656</p>
+						<p className="phone-number2">
+							<i class="fas fa-phone-alt"></i>
+							<a href="tel:1855-1656">1855-1656</a>
+						</p>
 					</div>
 					<div>
 						<small className="website-rights">
