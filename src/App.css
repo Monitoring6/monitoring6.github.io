@@ -59,3 +59,9 @@
 		height: 520vh;
 	}
 }
+
+@media screen and (max-width: 583px) {
+	.about {
+		height: 140vh;
+	}
+}
