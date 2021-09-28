@@ -169,6 +169,12 @@
 	font-size: 2em;
 }
 
+.logo {
+	position: relative;
+	max-width: 30%;
+	height: auto;
+}
+
 .youtube-channel {
 	margin-left: 20%;
 }
@@ -217,7 +223,9 @@
 	}
 
 	.logo {
-		max-width: 24%;
+		position: relative;
+		max-width: 30%;
+		height: auto;
 	}
 
 	.phone-number1 {
