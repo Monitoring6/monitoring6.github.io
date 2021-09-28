@@ -4,19 +4,34 @@
 
 .text-on-image-vision {
 	position: absolute;
-	color: #fff;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	text-decoration: none;
 	font-size: 2em;
 	font-weight: bolder;
-	width: 100%;
+	width: 70%;
 	top: 35%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	left: 15%;
 }
 
 .text-vision {
 	text-align: center;
-	margin-top: 2%;
+	margin-bottom: 3%;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 	font-size: smaller;
 	font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
+	.text-on-image-vision {
+		font-size: 1.2em;
+	}
+
+	.text-vision {
+		margin-bottom: 8%;
+	}
 }
