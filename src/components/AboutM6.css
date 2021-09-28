@@ -8,6 +8,10 @@
 	border-end-start-radius: 10%;
 }
 
+p {
+	word-break: keep-all;
+}
+
 .text-on-image-about {
 	position: absolute;
 	color: #fff;
@@ -37,6 +41,9 @@
 .p4-1 {
 	margin-top: 4%;
 	font-size: 24px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 .text-on-image-1 .p1 {
