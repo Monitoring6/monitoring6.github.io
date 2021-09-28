@@ -29,7 +29,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
-	font-size: 5em;
+	font-size: 4em;
 	height: 250vh;
 }
 
@@ -39,7 +39,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
-	font-size: 5em;
+	font-size: 4em;
 }
 
 .about {
@@ -47,7 +47,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
-	font-size: 5em;
+	font-size: 4em;
 	height: 120vh;
 }
 
@@ -57,5 +57,11 @@
 	}
 	.culture {
 		height: 520vh;
+	}
+}
+
+@media screen and (max-width: 583px) {
+	.about {
+		height: 140vh;
 	}
 }

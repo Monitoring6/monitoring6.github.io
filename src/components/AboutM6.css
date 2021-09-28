@@ -12,7 +12,7 @@
 	position: absolute;
 	color: #fff;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: bolder;
 	width: 100%;
 	top: 35%;
@@ -40,19 +40,25 @@
 }
 
 .text-on-image-1 .p1 {
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
 	width: 80%;
 	margin-left: 7%;
 	margin-top: 5%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 .text-on-image-1 .p2 {
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
 	width: 80%;
 	margin-left: 7%;
 	margin-top: 5%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 .text-on-image-3 {
@@ -63,19 +69,25 @@
 }
 
 .text-on-image-3 .p3 {
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
 	width: 80%;
 	margin-left: 7%;
 	margin-top: 5%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 .text-on-image-3 .p4 {
-	font-size: 28px;
+	font-size: 24px;
 	text-align: center;
 	width: 80%;
 	margin-left: 7%;
 	margin-top: 5%;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 @media screen and (max-width: 1284px) {
@@ -173,8 +185,27 @@
 	}
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 583px) {
 	.text-on-image-1 {
 		margin-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.text-on-image-3 {
+		margin-top: 10%;
+		padding-top: 30%;
+	}
+
+	.p1,
+	.p2,
+	.p3,
+	.p4 {
+		margin-bottom: 5%;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.text-on-image-3 {
+		margin-top: 20%;
 	}
 }

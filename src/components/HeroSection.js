@@ -17,5 +17,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-
-<div className="bodylanguage"></div>;
