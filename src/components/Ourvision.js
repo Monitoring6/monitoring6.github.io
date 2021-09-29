@@ -12,7 +12,7 @@ const Ourvision = () => {
 					은은하게 집안을 꾸며주는 향기좋은 디퓨저처럼
 				</p>
 				<p className="text-vision">
-					우리 M6는 고객의 곁에 은은하게 자리잡아 당신의 안전과 쉼을 지킬
+					우리 M6는 고객의 곁에 은은하게 자리 잡아 당신의 안전과 쉼을 지킬
 					것입니다.
 				</p>
 				<p className="text-vision">
