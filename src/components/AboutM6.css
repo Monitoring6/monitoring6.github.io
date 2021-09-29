@@ -21,12 +21,14 @@ p {
 	width: 100%;
 	top: 35%;
 }
+
 .text-on-image-1 {
 	display: flex;
 	justify-content: space-evenly;
 	height: 35vh;
 	text-align: center;
 }
+
 .text-on-image-1 h2 {
 	width: 80%;
 }
@@ -208,6 +210,14 @@ p {
 	.p3,
 	.p4 {
 		margin-bottom: 5%;
+	}
+
+	.text-on-image-1 h2 {
+		font-size: 1.3em;
+	}
+
+	.text-on-image-3 h2 {
+		font-size: 1.3em;
 	}
 }
 
