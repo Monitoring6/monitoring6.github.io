@@ -25,12 +25,14 @@ function Footer() {
 				<div class="social-media-wrap">
 					<div class="footer-logo">
 						<img src="images/M6_Logo white png.png" alt="" className="logo" />
-						<p className="phone-number1">
+
+						<div className="phone-number1">
 							<i class="fas fa-phone-alt"></i>
 							<a href="tel:1855-1656">1855-1656</a>
-						</p>
+						</div>
+
 						<div>
-							<small class="website-rights-before">
+							<small class="address">
 								주소: 서울 영등포구 양평로22길 21 1405호
 							</small>{" "}
 							<br />

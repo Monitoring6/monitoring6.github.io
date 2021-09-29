@@ -8,6 +8,10 @@
 	border-end-start-radius: 10%;
 }
 
+p {
+	word-break: keep-all;
+}
+
 .text-on-image-about {
 	position: absolute;
 	color: #fff;
@@ -17,12 +21,14 @@
 	width: 100%;
 	top: 35%;
 }
+
 .text-on-image-1 {
 	display: flex;
 	justify-content: space-evenly;
 	height: 35vh;
 	text-align: center;
 }
+
 .text-on-image-1 h2 {
 	width: 80%;
 }
@@ -37,6 +43,9 @@
 .p4-1 {
 	margin-top: 4%;
 	font-size: 24px;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-weight: 500;
 }
 
 .text-on-image-1 .p1 {
@@ -201,6 +210,14 @@
 	.p3,
 	.p4 {
 		margin-bottom: 5%;
+	}
+
+	.text-on-image-1 h2 {
+		font-size: 1.3em;
+	}
+
+	.text-on-image-3 h2 {
+		font-size: 1.3em;
 	}
 }
 

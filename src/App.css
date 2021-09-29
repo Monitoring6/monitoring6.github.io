@@ -34,12 +34,13 @@
 }
 
 .vision {
-	background-image: url("/images/app.jpg");
+	background-image: url("/images/diffuser.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #fff;
 	font-size: 4em;
+	height: 110vh;
 }
 
 .about {
@@ -63,5 +64,10 @@
 @media screen and (max-width: 583px) {
 	.about {
 		height: 140vh;
+	}
+	.about,
+	.culture,
+	.vision {
+		font-size: 3em;
 	}
 }

@@ -169,6 +169,12 @@
 	font-size: 2em;
 }
 
+.logo {
+	position: relative;
+	max-width: 30%;
+	height: auto;
+}
+
 .youtube-channel {
 	margin-left: 20%;
 }
@@ -179,7 +185,8 @@
 	margin-top: 25px;
 }
 
-.website-rights-before {
+.website-rights-before,
+.address {
 	color: #fff;
 	margin-top: 6%;
 	opacity: 0;
@@ -216,12 +223,16 @@
 	}
 
 	.logo {
-		max-width: 24%;
+		position: relative;
+		max-width: 30%;
+		height: auto;
 	}
 
 	.phone-number1 {
 		margin-top: 5%;
 		opacity: 1;
+		position: absolute;
+		margin-left: 10%;
 	}
 
 	.phone-number2 {
@@ -242,9 +253,31 @@
 		opacity: 0;
 	}
 
-	.website-rights-before {
+	.website-rights-before,
+	.address {
 		opacity: 1;
 		display: flex;
 		justify-content: center;
+		margin-right: 6%;
+		margin-top: 8%;
+	}
+
+	.logo {
+		opacity: 0;
+	}
+}
+
+@media screen and (max-width: 433px) {
+	.footer-logo {
+		flex-direction: column;
+	}
+
+	.website-rights-before,
+	.address {
+		margin-top: 2%;
+	}
+
+	.phone-number1 {
+		padding-left: 22%;
 	}
 }

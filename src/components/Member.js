@@ -15,7 +15,7 @@ const Member = () => {
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/Juy2.jpg" alt="Juy" />
+							<img className="face" src="images/Juy.jpg" alt="Juy" />
 							<div className="image-hover">
 								<div className="text-on-hover">이주영(Juy)</div>
 							</div>
@@ -31,7 +31,7 @@ const Member = () => {
 						<div className="face-wrap">
 							<img className="face" src="images/S.J.jpg" alt="Sanju" />
 							<div className="image-hover">
-								<div className="text-on-hover">Sanju(김산쥬)</div>
+								<div className="text-on-hover">Sanju(산주)</div>
 							</div>
 						</div>
 						<div className="face-wrap">

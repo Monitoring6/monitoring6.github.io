@@ -1,4 +1,13 @@
+/*혹시몰라서 동영상 재생 가능하면 남긴것*/
 video {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+.background-img {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
@@ -19,14 +28,14 @@ video {
 
 .hero-container h1 {
 	color: white;
-	font-size: 100px;
+	font-size: 6em;
 	margin-top: -100px;
 }
 
 .hero-container p {
 	color: white;
 	margin-top: 8px;
-	font-size: 32px;
+	font-size: 2.3em;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
 }
@@ -57,7 +66,7 @@ video {
 	}
 
 	.hero-container p {
-		font-size: 30px;
+		font-size: 1.7em;
 	}
 
 	.btn-mobile {
@@ -72,7 +81,11 @@ video {
 @media screen and (max-width: 433px) {
 	.hero-container h1 {
 		color: white;
-		font-size: 70px;
+		font-size: 3em;
 		margin-top: -100px;
+	}
+
+	.hero-container p {
+		font-size: 1.5em;
 	}
 }

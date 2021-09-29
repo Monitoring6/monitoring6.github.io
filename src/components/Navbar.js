@@ -26,7 +26,7 @@ function Navbar() {
 		<nav className="navbar">
 			<div className="navbar-container">
 				<Link to="/" className="navbar-logo">
-					<img src="images/M6_Logo white png.png" alt="" className="logo" />
+					<img src="images/M6_Logo white png.png" alt="" className="nav-logo" />
 				</Link>
 				<div className="menu-icon" onClick={handleClick}>
 					<i className={click ? "fas fa-times" : "fas fa-bars"}></i>
