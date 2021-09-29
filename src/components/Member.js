@@ -15,7 +15,7 @@ const Member = () => {
 							</div>
 						</div>
 						<div className="face-wrap">
-							<img className="face" src="images/Juy2.jpg" alt="Juy" />
+							<img className="face" src="images/Juy.jpg" alt="Juy" />
 							<div className="image-hover">
 								<div className="text-on-hover">이주영(Juy)</div>
 							</div>
